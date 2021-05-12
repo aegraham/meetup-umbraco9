@@ -12,7 +12,7 @@
         <Compile Remove="umbraco\Data\**" />
         <Compile Remove="umbraco\logs\**" />
         <Compile Remove="umbraco\MediaCache\**" />
-        <!--<Compile Remove="umbraco\models\**" />-->
+        <Compile Remove="umbraco\models\**" />
     </ItemGroup>
     <ItemGroup>
         <EmbeddedResource Remove="umbraco\Data\**" />
@@ -108,6 +108,12 @@
       <None Include="wwwroot\images\pic13.jpg" />
       <None Include="wwwroot\images\pic14.jpg" />
       <None Include="wwwroot\images\pic15.jpg" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="umbraco\models\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\Feature\MyUmbraco9.Features\MyUmbraco9.Features.csproj" />
     </ItemGroup>
 
     <!--Set this to true ModelsBuilder mode is not PureLive -->

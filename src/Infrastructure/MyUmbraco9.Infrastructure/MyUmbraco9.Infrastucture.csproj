@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="DocumentTypes\GeneratedModels\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Umbraco.Cms.Core" Version="9.0.0-beta002" />
+    <PackageReference Include="Umbraco.Cms.Web.Common" Version="9.0.0-beta002" />
+  </ItemGroup>
+
+</Project>
